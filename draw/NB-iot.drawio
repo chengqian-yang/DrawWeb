@@ -1,9 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T11:53:15.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" version="21.3.3" etag="dAUSDZO2ndSS1RMAX729" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T12:00:49.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="iY6GyxxyI75LXJhd3Tm6" version="21.3.3" type="github">
   <diagram name="第 1 页" id="8Mw0ueo_UR0dboEiKL0Y">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-2" value="Buzzer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="616" y="160" width="134" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-3" value="蜂鸣器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="Y0aPgEoG73eqQ8s8ld0h-2">
+          <mxGeometry x="43" y="33" width="64" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-4" value="STM32F104" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="319" y="160" width="212" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-5" value="STM32F104单片机" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="Y0aPgEoG73eqQ8s8ld0h-4">
+          <mxGeometry x="43" y="33" width="142" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-6" value="N10SG" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="211" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-7" value="N10SGNB-IoT模组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="Y0aPgEoG73eqQ8s8ld0h-6">
+          <mxGeometry x="43" y="33" width="141" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-8" value="UART" style="curved=1;startArrow=none;endArrow=block;exitX=0.9989410689656768;exitY=0.5024096477462585;entryX=-0.0007296328274708874;entryY=0.5024096477462585;rounded=0;" edge="1" parent="1" source="Y0aPgEoG73eqQ8s8ld0h-6" target="Y0aPgEoG73eqQ8s8ld0h-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0aPgEoG73eqQ8s8ld0h-9" value="GPIO" style="curved=1;startArrow=none;endArrow=block;exitX=1.0015699098695;exitY=0.5024096477462585;entryX=0.00239044872682486;entryY=0.5024096477462585;rounded=0;" edge="1" parent="1" source="Y0aPgEoG73eqQ8s8ld0h-4" target="Y0aPgEoG73eqQ8s8ld0h-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
