@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T02:47:08.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" version="21.3.3" etag="se9_8NWCw3p6UQqCaGvr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T03:02:49.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="HpeuPgSTMD1l3iBkqn1x" version="21.3.3" type="github">
   <diagram name="第 1 页" id="Jq8OHCJpmJ6k76olwIwa">
-    <mxGraphModel>
+    <mxGraphModel dx="830" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b6O3E0edIOKAcQQd8d58-1" value="Firework" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="369" y="26" width="514" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-2" value="CloudLayer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="696" y="113" width="162" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-3" value="EdgeLayer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="394" y="46" width="146" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-4" value="DeviceLayer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="725" y="252" width="103" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-5" value="警报生成器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="419" y="148" width="96" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-6" value="安珀警报服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="721" y="148" width="112" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-7" value="EdgeComputing" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="227" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-8" value="EdgeNodes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="50" width="177" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-9" value="治安监控摄像头" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="75" width="127" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-10" value="交通摄像头" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="86" y="158" width="95" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-11" value="行车记录仪" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="86" y="242" width="96" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-12" value="Generate Alert" style="curved=1;startArrow=none;endArrow=block;exitX=0.9966146151224772;exitY=0.5181818875399503;entryX=-0.0015624591282435826;entryY=0.5181818875399503;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0194" y="13" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="515" y="163.10409245977422" as="sourcePoint" />
+            <mxPoint x="721" y="163.09813317155073" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-13" value="Vedio Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5060606291799834;entryX=0.3248829269141182;entryY=0.012121258359966856;rounded=0;" edge="1" parent="1" source="b6O3E0edIOKAcQQd8d58-9" target="b6O3E0edIOKAcQQd8d58-5">
+          <mxGeometry x="-0.0364" y="2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="92" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-14" value="Vedio Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5181818875399503;entryX=-0.0013020833333333333;entryY=0.7172923357391355;rounded=0;" edge="1" parent="1" source="b6O3E0edIOKAcQQd8d58-10" target="b6O3E0edIOKAcQQd8d58-5">
+          <mxGeometry x="0.0831" y="11" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="175" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6O3E0edIOKAcQQd8d58-15" value="Vedio Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.9937500158945719;exitY=0.5000001155968868;entryX=0.3618793586395679;entryY=1.0242425167199336;rounded=0;" edge="1" parent="1" source="b6O3E0edIOKAcQQd8d58-11" target="b6O3E0edIOKAcQQd8d58-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
