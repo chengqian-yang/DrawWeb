@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T01:43:30.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="VotEnmWmQ3Ucts_9UToY" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T01:44:00.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="J-hkDMbJmDWdU4kfo2ni" version="21.3.6" type="github">
   <diagram name="第 1 页" id="VsvBVxYAbqgpgvzQOxOY">
     <mxGraphModel dx="569" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,8 +55,8 @@
         <mxCell id="umO30QBN09zoK_80U7y_-47" value="自动驾驶相关传感器模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="78" y="459" width="95" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="umO30QBN09zoK_80U7y_-48" value="执行器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="544" y="459" width="64" height="33" as="geometry" />
+        <mxCell id="umO30QBN09zoK_80U7y_-48" value="车辆运动控制执行器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="544" y="459" width="116" height="41" as="geometry" />
         </mxCell>
         <mxCell id="umO30QBN09zoK_80U7y_-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.2332581897565426;entryX=0.45460546598189255;entryY=1.003030372388435;rounded=0;" edge="1" parent="1" source="umO30QBN09zoK_80U7y_-47" target="umO30QBN09zoK_80U7y_-42">
           <mxGeometry relative="1" as="geometry">
